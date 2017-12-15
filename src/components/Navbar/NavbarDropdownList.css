@@ -1,0 +1,35 @@
+.NavbarDropdownList {
+  width: 100%;
+  list-style: none;
+  flex-direction: column;
+  border-top: 1px solid #fff;
+  font-size: 2rem; 
+  max-height: 0;
+  overflow: hidden;
+  transform: scaleY(0);    
+  transform-origin: top;
+  transition: all 0.26s ease;
+}
+
+.NavbarDropdownList li:not(:last-of-type) {
+  margin-bottom: 5px;
+}
+
+/* Apply this when user clicks on navbar dropdown button */
+.ShowDropdown {
+  transform: scaleY(1);
+  padding: 30px 0 0 10px;
+  margin-top: 30px;
+  max-height: 500px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Hide the dropdown menu when it's toggled on and user resizes window */
+@media only screen and (min-width: 1201px) {
+  .NavbarDropdownList {
+    display: none;
+  }
+}

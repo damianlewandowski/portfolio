@@ -1,0 +1,40 @@
+.Navbar {
+  font-family: Montserrat;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  padding: 25px 20px;
+  background: rgba(0, 0, 0, .5);
+  flex-wrap: wrap;
+  transition: all .2s;
+}
+
+.Navbar > button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 2.6rem;
+  margin-right: 10px;
+  visibility: hidden;  
+}
+
+/* Apply these when user is at the top of website */
+.HomeNavbar {
+  padding: 40px 40px;
+}
+.HomeNavbar .Logo {
+  transform: scale(1.1);  
+}
+
+@media only screen and (max-width: 680px) {
+  .HomeNavbar {
+    padding: 30px 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .Navbar > button {
+    visibility: visible;
+  }
+}
