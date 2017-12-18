@@ -2,17 +2,22 @@
   display: flex;
   align-items: center;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-family: fantasy;
-  transition: all .2s;   /* For resizing the logo when user is at the top of website */
+  position: relative;
+  left: -10px;
 }
 
-.Logo span:first-of-type {
+.logo-img {
+  width: 60px;
+}
+
+.last-name {
   color: dodgerblue;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 400px) {
   .Logo span {
     display: none;
-  }
+  } 
 }

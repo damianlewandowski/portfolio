@@ -1,13 +1,13 @@
 import React from 'react';
 
-import logo from '../../images/logo.png';
-
 import './Logo.css';
+
+import logo from '../../images/logo.png';
 
 const Logo = () => (
   <div className="Logo">
-    <img src={logo} alt="logo"/>
-    <span>Lewandowski</span>
+    <img className="logo-img" src={logo} alt="Logo"/>
+    <span className="last-name">Lewandowski</span>
     <span>Damian</span>
   </div>
 )

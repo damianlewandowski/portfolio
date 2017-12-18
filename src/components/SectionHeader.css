@@ -1,0 +1,16 @@
+.SectionHeader {
+  width: 100%;
+  margin: 40px 0;
+  text-align: center;
+}
+
+.SectionHeader h3 {
+  display: inline;
+  font-family: Montserrat;
+  font-size: 1.5rem;  
+}
+
+.SectionHeader p {
+  margin-top: 40px;
+  font-size: 1.2rem;
+}

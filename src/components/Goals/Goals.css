@@ -1,0 +1,11 @@
+.Goals {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.Goals-heading {
+  font-size: 1.5rem;
+  display: inline;
+  border-bottom: 5px solid darkblue;
+}
