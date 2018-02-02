@@ -1,4 +1,5 @@
 import React from 'react';
+import propTypes from 'prop-types';
 
 import './NavbarDropdownList.css';
 
@@ -8,13 +9,22 @@ const NavbarDropdownList = (props) => (
       props.show 
       ? "NavbarDropdownList dropdown-active"
       : "NavbarDropdownList"}>
-    <li><a href="/">HOME</a></li>
-    <li><a href="/">ABOUT</a></li>
-    <li><a href="/">GOALS</a></li>
-    <li><a href="/">SKILLS</a></li>
-    <li><a href="/">PROJECTS</a></li>
-    <li><a href="/">CONTACT</a></li>
+    {props.anchors.map((anchor) => (
+      <li key={anchor}>
+        <a onClick={() => (
+          props.smoothScroll(anchor)
+        )}>
+          {anchor.toUpperCase()}
+        </a>
+      </li>
+    ))}
   </ul>
 )
+
+NavbarDropdownList.propTypes = {
+  smoothScroll: propTypes.func,
+  show: propTypes.bool,
+  anchors: propTypes.array,
+}
 
 export default NavbarDropdownList;

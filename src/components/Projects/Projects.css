@@ -1,0 +1,15 @@
+.Projects {
+  padding-top: 1px;
+  padding-bottom: 100px;
+}
+
+.Projects * {
+  transition: opacity 300ms ease-in-out;
+}
+
+.Projects-items {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  opacity: 1;
+}

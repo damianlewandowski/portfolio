@@ -1,0 +1,44 @@
+.NavbarList {
+  display: flex; 
+  color: #fff;
+  list-style-type: none;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.NavbarList li {
+  padding: 5px 15px;
+  transition: all .22s ease-in-out;
+  
+}
+
+.NavbarList li a {
+  display: inline-block;
+  padding-top: 2px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  
+  font-family: Montserrat;
+  color: #fff;
+  text-decoration: none;
+}
+
+.NavbarList li a:hover {
+  border-bottom: 2px solid white;
+}
+
+@media only screen and (max-width: 991px) {
+  .NavbarList {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .NavbarList {
+    font-size: 1.2rem;
+  }
+}

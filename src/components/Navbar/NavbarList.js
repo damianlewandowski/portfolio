@@ -1,14 +1,25 @@
 import React from 'react';
+import propTypes from 'prop-types';
 
-const NavbarList = () => (
+import './NavbarList.css';
+
+const NavbarList = (props) => (
   <ul className="NavbarList">
-    <li><a href="/">HOME</a></li>
-    <li><a href="/">ABOUT</a></li>
-    <li><a href="/">GOALS</a></li>
-    <li><a href="/">SKILLS</a></li>
-    <li><a href="/">PROJECTS</a></li>
-    <li><a href="/">CONTACT</a></li>
+    {props.anchors.map((anchor) => (
+      <li key={anchor}>
+        <a onClick={() => (
+          props.smoothScroll(anchor)
+        )}>
+          {anchor.toUpperCase()}
+        </a>
+      </li>
+    ))}
   </ul>
 )
+
+NavbarList.propTypes = {
+  smoothScroll: propTypes.func,
+  anchors: propTypes.array,
+}
 
 export default NavbarList;

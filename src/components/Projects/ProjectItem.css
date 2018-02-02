@@ -1,0 +1,100 @@
+.ProjectItem {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.rect {
+  width: 95%;
+  padding: 4px;
+  position: relative;
+  
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.rect:hover {
+  border: 2px solid #ddd;  
+  box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
+}
+
+.ProjectItem-title {
+  width: calc(100% - 8px);  
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+
+  background: rgba(15, 15, 15, .95);
+  color: white;
+}
+
+.ProjectItem button {
+  cursor: pointer;
+}
+
+.ProjectItem img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ProjectItem-description {
+  width: calc(100% - 8px); 
+  position: absolute;
+  bottom: 4px;
+  padding: 15px;
+
+  color: white;
+  background: rgba(15, 15, 15, .95);
+}
+
+.ProjectItem-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProjectItem-description-link {
+  display: inline-block;
+  margin: 10px 0 0 0;
+
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  color: #08f;
+  border: none;
+  background: none;
+}
+
+.ProjectItem-description a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.ProjectItem-description a:hover, 
+.ProjectItem-description button:hover {
+  color: #0bf;
+}
+
+@media only screen and (max-width: 767px) {
+  .rect {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .ProjectItem {
+    width: 50%;
+    font-size: 1.15rem;    
+  }
+
+  .ProjectItem-description {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ProjectItem {
+    width: 33.3%;
+  }
+}

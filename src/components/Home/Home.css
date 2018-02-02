@@ -13,8 +13,9 @@
 
 .info {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 5%;
+  transform: translateY(-50%);
 
   font-family: Montserrat;
   color: #fff;

@@ -25,10 +25,6 @@ body {
   padding: 0;
 }
 
-.App {
-  height: 3000px;
-}
-
 /* Darky background on Home component */
 .overlay {
   position: absolute;

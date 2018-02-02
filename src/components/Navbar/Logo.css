@@ -4,20 +4,28 @@
   color: #fff;
   font-size: 1.8rem;
   font-family: fantasy;
+  
   position: relative;
-  left: -10px;
+
+  transition: .22s all ease-in-out;
 }
 
 .logo-img {
-  width: 60px;
+  max-width: 60px;
 }
 
 .last-name {
   color: dodgerblue;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 991px) {
+  .Logo {
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
   .Logo span {
     display: none;
-  } 
+  }
 }

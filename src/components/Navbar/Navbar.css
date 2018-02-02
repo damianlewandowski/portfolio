@@ -1,14 +1,19 @@
 .Navbar {
   width: 100%;
   background: rgba(0, 0, 0, .95);
+
   position: fixed;
   top: 0;
   left: 0;
+  padding: 10px 15px;
+
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 15px;
+  
   z-index: 9999;
+  transition: all .22s ease-in-out;
+  box-shadow: 0 0px 6px #fff;
 }
 
 .home-navbar {
@@ -21,5 +26,26 @@
   border: none;
   color: #fff;
   font-size: 2.4rem;
+  margin-right: 8px;
 }
 
+@media only screen and (min-width: 991px) {
+  .Navbar {
+    justify-content: flex-start;
+  }
+
+  .Navbar-at-top {
+    padding: 20px 15px;
+  }
+
+  .Navbar-at-top .Logo,
+  .Navbar-at-top .NavbarList li {
+    transform: scale(1.2);
+    padding: 5px 20px;
+  }
+
+
+  .dropdown-toggler {
+    display: none;
+  }
+}
