@@ -16,7 +16,7 @@ class Navbar extends Component {
     this.state = {
       showDropdown: false,
       scrollTop: true,
-    };
+    }; 
 
     // For increasing navbar size when scrollbar is at the top
     window.addEventListener("scroll", () => {
