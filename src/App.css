@@ -1,11 +1,11 @@
 @font-face {
   font-family: Montserrat;
-  src: url("fonts/Montserrat.otf");
+  src: url("./fonts/Montserrat.otf");
 }
 
 @font-face {
   font-family: Roboto;
-  src: url("fonts/Roboto.ttf");
+  src: url("./fonts/Roboto.ttf");
 }
 
 html {
