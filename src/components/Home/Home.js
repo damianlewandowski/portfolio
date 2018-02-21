@@ -1,6 +1,6 @@
 import React from 'react';
 
-import home from "../../images/home.jpg"
+import home from "../../images/background.jpg"
 
 import './Home.css';
 
