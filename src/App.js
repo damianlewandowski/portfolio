@@ -14,7 +14,7 @@ import './App.css';
 class App extends Component {
   constructor() {
     super();
-    this.smoothScroll = this.smoothScroll.bind(this);
+    this.smoothScroll = this.smoothScroll.bind(this);   
   }
 
   smoothScroll(anchor) {
