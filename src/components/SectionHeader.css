@@ -14,3 +14,29 @@
   margin-top: 40px;
   font-size: 1.2rem;
 }
+
+@media only screen and (min-width: 768px) {
+  .SectionHeader h3 {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .SectionHeader {
+    margin-bottom: 50px;
+  }
+
+  .SectionHeader h3 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .SectionHeader {
+    margin-bottom: 50px;
+  }
+
+  .SectionHeader h3 {
+    font-size: 2.2rem;
+  }
+}

@@ -11,7 +11,7 @@ class About extends Component {
     return (
       <div id="about" className="About">
         <SectionHeader title="ABOUT ME" borderColor="darkblue">
-          <p>22 years old self learning javascript enthusiast who loves coding</p>
+          <p>22 years old self learning javascript enthusiast who loves coding.</p>
         </SectionHeader>
 
         <div className="about-item image-item">
@@ -19,7 +19,7 @@ class About extends Component {
         </div>
 
         <div className="about-item text-item">
-          <p>My first journey with web development began 2 years ago when a roommate showed me how to make my first website. After many projects, I finally encountered JavaScript and immediately fell in love with it. I enjoy writing both frontend and backend parts of application which makes me an ASPIRING full stack web developer</p>
+          <p>My first journey with web development began 2 years ago when a roommate showed me how to make my first website. After many projects, I finally encountered JavaScript and immediately fell in love with it. I enjoy writing both frontend and backend parts of application which makes me an ASPIRING full stack web developer.</p>
           <p className="about-other">In my free time I play video games, do some sports and cook. I also enjoy a good fantasy book and short horror stories.</p>
         </div>
       </div>

@@ -14,12 +14,13 @@ const ProjectItem = (props) => (
         {props.description}
         <br/>
         <div className="ProjectItem-links">
-          <button 
+          <button
             className="ProjectItem-description-link" 
             onClick={props.changeActiveProject.bind(this, props.title)}>Read More...</button>
           <a 
             className="ProjectItem-description-link"
-            href="">PROJECT LINK</a>
+            href={props.link}
+            target="_blank">PROJECT LINK</a>
         </div>
         
       </div>

@@ -14,9 +14,8 @@
   padding: 60px 0;
 
   color: #fff;
-  background: #50C9C3;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #96DEDA, #50C9C3);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #96DEDA, #50C9C3);
+  background: linear-gradient(to right, #dcdcdc, #bfbfbf);
+  border-radius: 5px;
 }
 
 .Skills-item {
@@ -37,15 +36,44 @@
   justify-content: center;
   width: 200px;
   height: 200px;
-  border: 2px solid #fff;
+  border: 1px solid transparent;
   border-radius: 50%;
   font-size: 1.3rem;
+  text-shadow: 1px 0 #1f1f1f, -1px 0 #1f1f1f, 0 -1px #1f1f1f, 0 1px #1f1f1f;
 }
 
+.circle h4 {
+  margin-bottom: 10px;
+}
+
+.html {
+  background: linear-gradient(to right, #FF4500, #FF8C00);
+  border: 1px solid #ff4500;
+}
+
+.css {
+  background: linear-gradient(to right, #0074D9, #00D0D9);
+  border: 1px solid #007ffa;  
+}
+
+.javascript {
+  background: linear-gradient(to right, #D0B401, #FFE01D);
+  border: 1px solid #C0A601;    
+}
+
+.react {
+  background: linear-gradient(to right, #1e90ff, #63b0fb);
+  border: 1px solid #2f2f2f;
+}
 
 @media only screen and (min-width: 768px) {
   .Skills-item {
     width: 50%;
+  }
+
+  .circle {
+    width: 250px;
+    height: 250px
   }
 
   .Skills-item:nth-last-of-type(-n+2) {
@@ -53,7 +81,21 @@
   }
 }
 
+@media only screen and (min-width: 991px) {
+  .circle {
+    font-size: 1.8rem;
+  }
+
+  .circle h4 {
+    font-size: 1.8rem;    
+  }
+}
+
 @media only screen and (min-width: 1200px) {
+  .Skills-items {
+    padding: 180px 60px;
+  }
+
   .Skills-item {
     width: 25%;
     margin: 0 !important;

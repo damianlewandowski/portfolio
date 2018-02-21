@@ -43,5 +43,6 @@ padding-top: 1px;
 }
 
 .input-group input:focus, textarea:focus {
-  box-shadow: 0px 0px 6px 2px #1D96FF;
+  border: 1px solid #039cf5;
+  box-shadow: 1px 0 1px #1D96FF, -1px 0 1px #1D96FF, 0 1px 1px #1D96FF, 0 -1px 1px #1D96FF;
 }

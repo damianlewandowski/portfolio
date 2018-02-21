@@ -19,7 +19,7 @@ class ProjectItemDetail extends Component {
           </button>
         </div>
         
-        <a className="project-image" href={this.props.link}>
+        <a className="project-image" href={this.props.link} target="_blank">
           <img src={this.props.img} alt=""/>
         </a>
 

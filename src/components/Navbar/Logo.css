@@ -14,18 +14,8 @@
   max-width: 60px;
 }
 
-.last-name {
-  color: dodgerblue;
-}
-
 @media only screen and (min-width: 991px) {
   .Logo {
     left: 5%;
-  }
-}
-
-@media only screen and (max-width: 1600px) {
-  .Logo span {
-    display: none;
   }
 }

@@ -84,8 +84,26 @@
 
 @media only screen and (min-width: 768px) {
   .ProjectItem {
-    width: 50%;
-    font-size: 1.15rem;    
+    width: 100%;
+    font-size: 1.6rem;    
+  }
+
+  .ProjectItem-title {
+    padding: 15px 0;
+  }
+
+  .ProjectItem-links {
+    margin-top: 10px;
+  }
+
+  .ProjectItem-links button {
+    font-size: 2rem;
+  }
+
+  .ProjectItem-links a {
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
   }
 
   .ProjectItem-description {
@@ -96,5 +114,26 @@
 @media only screen and (min-width: 1200px) {
   .ProjectItem {
     width: 33.3%;
+    font-size: 1.2rem;
+  }
+
+  .ProjectItem-title {
+    padding: 15px 0;
+  }
+
+  .ProjectItem-links {
+    margin-top: 10px;
+  }
+
+  .ProjectItem-links button {
+    font-size: 1.3rem;
+  }
+
+  .ProjectItem-links a {
+    font-size: 1.1rem;
+  }
+
+  .ProjectItem-description {
+    padding: 20px;
   }
 }

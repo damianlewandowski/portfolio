@@ -50,7 +50,10 @@
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
-    
+  }
+
+  .About .SectionHeader p {
+    font-size: 1.8rem;
   }
 
   .my-face {
@@ -58,16 +61,25 @@
   }
 
   .about-item {
-    width: 45%;
-  }
-
-  .image-item {
-    width: 50%;
+    width: 100%;
   }
 
   .text-item {
-    font-size: 1.4rem;  
+    font-size: 1.7rem;  
     line-height: 1.4;
   }
 
+  .about-other {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about-item {
+    width: 50%;
+  }
+
+  .About .SectionHeader {
+    margin-bottom: 120px;
+  }
 }
