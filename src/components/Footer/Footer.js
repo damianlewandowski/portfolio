@@ -38,6 +38,18 @@ const Footer = () => (
         </strong>
       </FooterItem>
     </div>
+
+    <div className="Footer-group">
+      <FooterItem
+        header="FreeCodeCamp">
+        <strong>
+          <a 
+            href="https://www.freecodecamp.org/damianlewandowski" 
+            target="_blank"
+            rel="noopener noreferrer">https://www.freecodecamp.org/damianlewandowski</a>
+        </strong>
+      </FooterItem>
+    </div>
     
   </footer>
 );
