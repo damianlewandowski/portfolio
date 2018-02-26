@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 import SectionHeader from '../SectionHeader';
 
-import myFace from '../../images/me.jpg';
-
 import './About.css';
 
 class About extends Component {
@@ -15,7 +13,7 @@ class About extends Component {
         </SectionHeader>
 
         <div className="about-item image-item">
-          <img className="my-face" src={myFace} alt="face"/>
+          <img className="my-face" src="https://i.imgur.com/NKehwVZ.png" alt="face"/>
         </div>
 
         <div className="about-item text-item">

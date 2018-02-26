@@ -58,7 +58,7 @@ const ProjectsData = [
       "link": "https://damianlewandowski.github.io/recipe-box-react/",      
     },
     "ProjectItem": {
-    "shortDescription": "Simple application in which you can save your recipes"
+    "shortDescription": "Simple application in which you can add, edit or delete your recipes."
     },
     "ProjectItemDetail": {
       "gitLink": "https://github.com/damianlewandowski/snake-oop",      
@@ -136,7 +136,7 @@ class Projects extends Component {
       return  <ProjectItem
                 key={project["shared"]["title"]}
                 title={project["shared"]["title"]}
-                img={project["shared"]["img"]}
+                img={project["shared"]["wideImg"]}
                 link={project["shared"]["link"]}
                 description={project["ProjectItem"]["shortDescription"]}
                 changeActiveProject={this.changeActiveProject}

@@ -6,6 +6,7 @@ import './ProjectItem.css';
 const ProjectItem = (props) => (
   <li className="ProjectItem">
     <div className="rect">
+      <div className="backdrop"></div>
       <h2 className="ProjectItem-title">{props.title}</h2>
       <button onClick={props.changeActiveProject.bind(this, props.title)}>
       <img src={props.img} alt=""/>

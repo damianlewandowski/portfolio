@@ -92,6 +92,16 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .circle {
+    font-size: 1.4rem;
+    width: 200px;
+    height: 200px
+  }
+
+  .circle h4 {
+    font-size: 1.4rem;
+  }
+
   .Skills-items {
     padding: 180px 60px;
   }

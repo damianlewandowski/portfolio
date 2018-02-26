@@ -45,7 +45,7 @@ class Navbar extends Component {
         <button 
           className="dropdown-toggler"
           onClick={this.toggleDropdown}>
-          &#9776;</button>
+          <i className="fa fa-bars"></i></button>
         <NavbarList smoothScroll={this.props.smoothScroll} anchors={anchors} />
         <NavbarDropdownList smoothScroll={this.props.smoothScroll} anchors={anchors} show={this.state.showDropdown} />
       </nav>

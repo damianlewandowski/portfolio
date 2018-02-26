@@ -1,26 +1,44 @@
 import React from 'react';
 
+import FooterItem from './FooterItem';
+
 import './Footer.css';
 
 const Footer = () => (
   <footer className="Footer">
-    <div>
-      <h3>Phone Number</h3>
-      <strong>516-155-260</strong>
+
+    <div className="Footer-group">
+      <FooterItem
+        header="Phone Number">
+        <p>516-155-260</p>
+      </FooterItem>
+      <FooterItem
+        header="Email">
+        <p>damianlewandows@gmail.com</p>
+      </FooterItem>
     </div>
-    <div>
-      <h3>Email</h3>
-      <strong>damian.lewandow@gmail.com</strong>
+
+    <div className="Footer-group">
+      <FooterItem
+        header="Github">
+        <strong>
+          <a 
+            href="https://www.github.com/damianlewandowski" 
+            target="_blank"
+            rel="noopener noreferrer">https://www.github.com/damianlewandowski</a>
+        </strong>
+      </FooterItem>
+      <FooterItem
+        header="Codewars">
+        <strong>
+          <a 
+            href="https://www.codewars.com/users/damianlewandowski" 
+            target="_blank"
+            rel="noopener noreferrer">https://www.codewars.com/users/damianlewandowski</a>
+        </strong>
+      </FooterItem>
     </div>
-    <div>
-      <h3>Github</h3>
-      <strong>
-        <a 
-          href="https://www.github.com/damianlewandowski" 
-          target="_blank"
-          rel="noopener noreferrer">https://www.github.com/damianlewandowski</a>
-      </strong>
-    </div>
+    
   </footer>
 );
 

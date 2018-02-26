@@ -2,11 +2,12 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .rect {
   width: 95%;
+  height: 350px;
   padding: 4px;
   position: relative;
   
@@ -34,15 +35,16 @@
 }
 
 .ProjectItem img {
-  display: block;
+  margin-top: 45px;
+  display: flex;
   max-width: 100%;
-  max-height: 100%;
+  box-shadow: 0 4px 30px #0f0f0f;
 }
 
 .ProjectItem-description {
   width: calc(100% - 8px); 
   position: absolute;
-  bottom: 4px;
+  bottom: 0px;
   padding: 15px;
 
   color: white;
@@ -83,6 +85,10 @@
 
 
 @media only screen and (min-width: 768px) {
+  .rect {
+    height: 600px;
+  }
+
   .ProjectItem {
     width: 100%;
     font-size: 1.6rem;    
@@ -111,9 +117,19 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .ProjectItem {
-    width: 33.3%;
+    width: 70%;    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .rect {
+    height: 500px;
+  }
+
+  .ProjectItem {
+    width: 50%;
     font-size: 1.2rem;
   }
 
