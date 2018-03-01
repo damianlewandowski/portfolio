@@ -17,7 +17,7 @@ const Skills = () => {
               <i className="fa fa-star"></i>
               <i className="fa fa-star"></i>
               <i className="fa fa-star"></i>
-              <i className="fa fa-star-o"></i>
+              <i className="far fa-star"></i>
             </div>
           </div>
         </div>
@@ -28,8 +28,8 @@ const Skills = () => {
               <i className="fa fa-star"></i>
               <i className="fa fa-star"></i>
               <i className="fa fa-star"></i>
-              <i className="fa fa-star-o"></i>
-              <i className="fa fa-star-o"></i>
+              <i className="far fa-star"></i>
+              <i className="far fa-star"></i>
             </div>
           </div>
         </div>
@@ -39,9 +39,9 @@ const Skills = () => {
             <div>
               <i className="fa fa-star"></i>
               <i className="fa fa-star"></i>
-              <i className="fa fa-star-half-o"></i>
-              <i className="fa fa-star-o"></i>
-              <i className="fa fa-star-o"></i>
+              <i className="fa fa-star"></i>
+              <i className="far fa-star"></i>
+              <i className="far fa-star"></i>
             </div>
           </div>
         </div>
@@ -51,9 +51,9 @@ const Skills = () => {
             <div>
               <i className="fa fa-star"></i>
               <i className="fa fa-star"></i>
-              <i className="fa fa-star-o"></i>
-              <i className="fa fa-star-o"></i>
-              <i className="fa fa-star-o"></i>
+              <i className="far fa-star"></i>
+              <i className="far fa-star"></i>
+              <i className="far fa-star"></i>
             </div>
           </div>
         </div>

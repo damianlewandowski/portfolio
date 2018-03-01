@@ -7,49 +7,42 @@ import './Footer.css';
 const Footer = () => (
   <footer className="Footer">
 
-    <div className="Footer-group">
-      <FooterItem
-        header="Phone Number">
-        <p>516-155-260</p>
-      </FooterItem>
-      <FooterItem
-        header="Email">
-        <p>damianlewandows@gmail.com</p>
-      </FooterItem>
+    <div>
+      <i className="fa fa-phone"></i>
+      <p>516-155-260</p>        
     </div>
 
-    <div className="Footer-group">
-      <FooterItem
-        header="Github">
-        <strong>
-          <a 
-            href="https://www.github.com/damianlewandowski" 
-            target="_blank"
-            rel="noopener noreferrer">https://www.github.com/damianlewandowski</a>
-        </strong>
-      </FooterItem>
-      <FooterItem
-        header="Codewars">
-        <strong>
-          <a 
-            href="https://www.codewars.com/users/damianlewandowski" 
-            target="_blank"
-            rel="noopener noreferrer">https://www.codewars.com/users/damianlewandowski</a>
-        </strong>
-      </FooterItem>
+    <div>
+      <i className="fa fa-envelope"></i>
+      <p>damianlewandows@gmail.com</p>        
+    </div>
+  
+    <div>
+      <i className="fab fa-github"></i>
+      <a 
+          href="https://www.github.com/damianlewandowski" 
+          target="_blank"
+          rel="noopener noreferrer">https://www.github.com/damianlewandowski</a>
     </div>
 
-    <div className="Footer-group">
-      <FooterItem
-        header="FreeCodeCamp">
-        <strong>
-          <a 
-            href="https://www.freecodecamp.org/damianlewandowski" 
-            target="_blank"
-            rel="noopener noreferrer">https://www.freecodecamp.org/damianlewandowski</a>
-        </strong>
-      </FooterItem>
+    <div>
+      <i className="fab fa-js"></i>
+      <a 
+        href="https://www.codewars.com/users/damianlewandowski" 
+        target="_blank"
+        rel="noopener noreferrer">https://www.codewars.com/users/damianlewandowski</a>
     </div>
+
+    <div>
+      <i className="fab fa-free-code-camp"></i>
+      <strong>
+        <a
+          href="https://www.freecodecamp.org/damianlewandowski" 
+          target="_blank"
+          rel="noopener noreferrer">https://www.freecodecamp.org/damianlewandowski</a>
+        </strong>
+      </div>
+      
     
   </footer>
 );

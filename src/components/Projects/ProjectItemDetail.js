@@ -42,7 +42,7 @@ class ProjectItemDetail extends Component {
 
         <div className="ProjectItemDetail-bottom">
           <button className="project-link" onClick={this.props.showProjects}><i className="fa fa-undo"></i>SHOW PROJECTS</button>    
-          <a className="project-link" href={this.props.gitLink} target="_blank"><i className="fa fa-github"></i>GITHUB</a>
+          <a className="project-link" href={this.props.gitLink} target="_blank"><i className="fab fa-github"></i>GITHUB</a>
           <a className="project-link" href={this.props.link} target="_blank"><i className="fa fa-link"></i>PROJECT LINK</a>
         </div>
 

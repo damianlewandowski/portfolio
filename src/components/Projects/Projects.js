@@ -11,6 +11,28 @@ import "./Projects.css";
 const ProjectsData = [
   {
     "shared": {
+      "title": "Weather App",
+      "wideImg": "https://i.imgur.com/U8Je88n.png",
+      "link": "https://damianlewandowski.github.io/weatherapp-react/",      
+    },
+    "ProjectItem": {
+    "shortDescription": "You can use this awesome application for checking up weather anywhere in the world."
+    },
+    "ProjectItemDetail": {
+      "gitLink": "https://github.com/damianlewandowski/weatherapp-react",      
+      "longDescription": "After having finished Tyler Mcginnis' React course(which is definitely the best one I've encountered so far) I was given a task to write React application using openweathermap API and react-router. I decided not to use the latter to make it harder. Handling state was very challenging, I should start looking into Redux library.",
+      "technologies": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "axios",
+        "openweathermap API"
+      ]
+    },
+  },
+  {
+    "shared": {
       "title": "PHP todo list",
       "img": "https://i.imgur.com/dGboXXh.png",
       "wideImg": "https://i.imgur.com/39Cybvl.png",
@@ -70,8 +92,7 @@ const ProjectsData = [
         "react"
       ]
     },
-  },
-  
+  },  
 ]
 
 const transitionStyles = {
