@@ -143,13 +143,7 @@ class Projects extends Component {
   // From the ProjectItemDetail view show back the Projects component
   showProjects() {
     this.props.smoothScroll("projects-anchor");        
-    // Why do I even have to do this?
-    // This scrollIntoView method is broken!
-    setTimeout(() => (
-      this.setState({
-        activeProject: {}
-      })
-    ), 1);
+    this.setState({ activeProject: {} })
   }
   
   render() {
@@ -168,7 +162,7 @@ class Projects extends Component {
       <div id="projects" className="Projects">
         <Transition 
           in={!this.state.activeProject.title} 
-          timeout={0}>
+          timeout={400}>
           {(state) => (
             <div style={{
               ...transitionStyles[state],
@@ -187,7 +181,7 @@ class Projects extends Component {
         {
           <Transition
             in={!!this.state.activeProject.title} 
-            timeout={0}>
+            timeout={400}>
             {(state) => (
               <div style={{
                 ...transitionStyles[state],

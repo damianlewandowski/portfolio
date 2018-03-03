@@ -1,7 +1,5 @@
 import React from 'react';
 
-import FooterItem from './FooterItem';
-
 import './Footer.css';
 
 const Footer = () => (
@@ -40,8 +38,8 @@ const Footer = () => (
           href="https://www.freecodecamp.org/damianlewandowski" 
           target="_blank"
           rel="noopener noreferrer">https://www.freecodecamp.org/damianlewandowski</a>
-        </strong>
-      </div>
+      </strong>
+    </div>
       
     
   </footer>
