@@ -11,64 +11,21 @@ import "./Projects.css";
 const ProjectsData = [
   {
     "shared": {
-      "title": "Weather App",
-      "wideImg": "https://i.imgur.com/U8Je88n.png",
-      "link": "https://damianlewandowski.github.io/weatherapp-react/",      
+      "title": "Game Of Life",
+      "wideImg": "https://i.imgur.com/4JGzK5B.png",
+      "link": "https://damianlewandowski.github.io/game-of-life",      
     },
     "ProjectItem": {
-    "shortDescription": "You can use this awesome application for checking up weather anywhere in the world."
+    "shortDescription": "Conway's game of life also known simply as Life, is a cellular automaton. One interacts with the Game of Life by creating an initial configuration and observing how it evolves"
     },
     "ProjectItemDetail": {
-      "gitLink": "https://github.com/damianlewandowski/weatherapp-react",      
-      "longDescription": "After having finished Tyler Mcginnis' React course(which is definitely the best one I've encountered so far) I was given a task to write React application using openweathermap API and react-router. I decided not to use the latter to make it harder. Handling state was very challenging, I should start looking into Redux library.",
+      "gitLink": "https://github.com/damianlewandowski/game-of-life",      
+      "longDescription": "This is another freeCodeCamp project which is part of data visualization course. I implemented the famous mathematician's, Conway, Game Of Life which is a cellular automaton. What is means is that it's a simple simulation of life on cellular level. I used only javascript objects for inline styling. I felt like I had much more control over my component this way, but this approach lacked awesome CSS3 capabilities like pseudo elements.",
       "technologies": [
-        "html",
-        "css",
-        "javascript",
-        "react",
-        "axios",
-        "openweathermap API"
-      ]
-    },
-  },
-  {
-    "shared": {
-      "title": "PHP todo list",
-      "img": "https://i.imgur.com/dGboXXh.png",
-      "wideImg": "https://i.imgur.com/39Cybvl.png",
-      "link": "https://thebest-todolist.herokuapp.com",      
-    },
-    "ProjectItem": {
-    "shortDescription": "Just a basic todo list app written in PHP using mysql database and mysqli connector."
-    },
-    "ProjectItemDetail": {
-      "gitLink": "https://github.com/damianlewandowski/todo-list-php",      
-      "longDescription": "Another todo list app. When I started writing this app I didn't really have any prior knowledge about PHP. I learnt how to connect to database using mysqli connector, that there are a lot of ways for communicating with database in this language and that for some reason people hate this language.",
-      "technologies": [
-        "php",
-        "html",
-        "css",
-        "javascript, ajax",
-      ]
-    }
-  },
-  {
-    "shared": {
-      "title": "Snake",
-      "img": "https://i.imgur.com/ds5oc2d.png",
-      "wideImg": "https://i.imgur.com/mYj2QrN.png",
-      "link": "https://damianlewandowski.github.io/snake-game",      
-    },
-    "ProjectItem": {
-    "shortDescription": "The best game ever. Written using \"new\" HTML5 element called canvas and ECMAScript6 class."
-    },
-    "ProjectItemDetail": {
-      "gitLink": "https://github.com/damianlewandowski/snake-oop",      
-      "longDescription": "One day I wanted to write some game. When I was a kid I used to play snake on my old nokia phone, so I decided to write something similiar. In this project my main goal was to get comfortable with ES6 object oriented programing. I had to rewrite this project many times to create the best possible encapsulation and abstraction. I had a lot of fun writing this one.",
-      "technologies": [
-        "html",
-        "css",
-        "javascript, canvas",
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "React.js",
       ]
     },
   },
@@ -93,6 +50,68 @@ const ProjectsData = [
       ]
     },
   },  
+  {
+    "shared": {
+      "title": "Weather App",
+      "wideImg": "https://i.imgur.com/U8Je88n.png",
+      "link": "https://damianlewandowski.github.io/weatherapp-react/",      
+    },
+    "ProjectItem": {
+    "shortDescription": "You can use this awesome application for checking up weather anywhere in the world."
+    },
+    "ProjectItemDetail": {
+      "gitLink": "https://github.com/damianlewandowski/weatherapp-react",      
+      "longDescription": "After having finished Tyler Mcginnis' React course(which is definitely the best one I've encountered so far) I was given a task to write React application using openweathermap API and react-router. I decided not to use the latter to make it harder. Handling state was very challenging, I should start looking into Redux library.",
+      "technologies": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "axios",
+        "openweathermap API"
+      ]
+    },
+  },
+  {
+    "shared": {
+      "title": "PHP todo list",
+      "wideImg": "https://i.imgur.com/39Cybvl.png",
+      "link": "https://thebest-todolist.herokuapp.com",      
+    },
+    "ProjectItem": {
+    "shortDescription": "Just a basic todo list app written in PHP using mysql database and mysqli connector."
+    },
+    "ProjectItemDetail": {
+      "gitLink": "https://github.com/damianlewandowski/todo-list-php",      
+      "longDescription": "Another todo list app. When I started writing this app I didn't really have any prior knowledge about PHP. I learnt how to connect to database using mysqli connector, that there are a lot of ways for communicating with database in this language and that for some reason people hate this language.",
+      "technologies": [
+        "php",
+        "html",
+        "css",
+        "javascript, ajax",
+      ]
+    }
+  },
+  {
+    "shared": {
+      "title": "Snake",
+      "wideImg": "https://i.imgur.com/mYj2QrN.png",
+      "link": "https://damianlewandowski.github.io/snake-game",      
+    },
+    "ProjectItem": {
+    "shortDescription": "The best game ever. Written using \"new\" HTML5 element called canvas and ECMAScript6 class."
+    },
+    "ProjectItemDetail": {
+      "gitLink": "https://github.com/damianlewandowski/snake-oop",      
+      "longDescription": "One day I wanted to write some game. When I was a kid I used to play snake on my old nokia phone, so I decided to write something similiar. In this project my main goal was to get comfortable with ES6 object oriented programing. I had to rewrite this project many times to create the best possible encapsulation and abstraction. I had a lot of fun writing this one.",
+      "technologies": [
+        "html",
+        "css",
+        "javascript, canvas",
+      ]
+    },
+  },
+  
 ]
 
 const transitionStyles = {
